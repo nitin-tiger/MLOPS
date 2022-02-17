@@ -1,0 +1,692 @@
+Script started on 2022-02-16 09:32:59-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ ls
+[0m[01;34mgit_repo[0m  [01;34mminiconda3[0m  my_git_session  [01;34mtest_dir[0m
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ [K(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ cd git_repo/
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ ls
+my_unix_session
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git init
+Initialized empty Git repository in /home/nitin/git_repo/.git/
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git add *.c
+fatal: pathspec '*.c' did not match any files
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git add LICENSE
+fatal: pathspec 'LICENSE' did not match any files
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ vi Li[KICENSR[KE
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"LICENSE" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [11;1H~                                                                                                                          [12;1H~                                                                                                                          [13;1H~                                                                                                                          [14;1H~                                                                                                                          [15;1H~                                                                                                                          [16;1H~                                                                                                                          [17;1H~                                                                                                                          [18;1H~                                                                                                                          [19;1H~                                                                                                                          [20;1H~                                                                                                                          [21;1H~                                                                                                                          [22;1H~                                                                                                                          [23;1H~                                                                                                                          [24;1H~                                                                                                                          [25;1H~                                                                                                                          [26;1H~                                                                                                                          [27;1H~                                                                                                                          [28;1H~                                                                                                                          [29;1H~                                                                                                                          [m[30;106H0,0-1[9CAll[1;1H[?25h[?25l[30;96Ht[1;1H[?25h[?25l[30;97He[1;1H[30;96H  [1;1H[?25h[?25l[30;96Hs[1;1H[30;96H [1;1H[30;96Hcl[1;1H[30;96H  [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;106H0,1[11CAll[1;1H[?25h[?25li[30;106H1,2[1;2H[?25h[?25lt[30;108H3[1;3H[?25h[?25le[30;108H4[1;4H[?25h[?25ls[30;108H5[1;5H[?25h[?25lt[30;108H6[1;6H[?25h[?25l[30;108H5[1;5H[?25h[?25l[30;108H4[1;4H[?25h[?25l[30;108H3[1;3H[?25h[?25l[30;108H2[1;2H[?25h[?25ltest[1;5H[K[30;108H1[1;1H[?25h[30;1H[K[1;1H[?25l[30;96H^[[1;1H[30;96H  [1;1H[30;106H1,1[11CAll[1;1H[?25h[?25l[30;96H^[[1;1H[30;96H  [1;1H[30;96H^[[1;1H[30;96H  [1;1H[?25h[?25l[30;96H:[1;1H[30;96H[K[30;1H:[?2004h[?25hwq[?25l[?2004l"LICENSE" [New] 1L, 5C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ vi LICENSE[5@git add[C[C[C[C[C[C[C[C
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git commit -m 'Initial project version'
+[master (root-commit) f71f5bd] Initial project version
+ 1 file changed, 1 insertion(+)
+ create mode 100644 LICENSE
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ ls
+LICENSE  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ cd ..
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ git clone https://github.com/libgit2/libgit2 mylibgit
+Cloning into 'mylibgit'...
+remote: Enumerating objects: 116406, done.[K
+remote: Counting objects:   0% (1/116406)[Kremote: Counting objects:   1% (1165/116406)[Kremote: Counting objects:   2% (2329/116406)[Kremote: Counting objects:   3% (3493/116406)[Kremote: Counting objects:   4% (4657/116406)[Kremote: Counting objects:   5% (5821/116406)[Kremote: Counting objects:   6% (6985/116406)[Kremote: Counting objects:   7% (8149/116406)[Kremote: Counting objects:   8% (9313/116406)[Kremote: Counting objects:   9% (10477/116406)[Kremote: Counting objects:  10% (11641/116406)[Kremote: Counting objects:  11% (12805/116406)[Kremote: Counting objects:  12% (13969/116406)[Kremote: Counting objects:  13% (15133/116406)[Kremote: Counting objects:  14% (16297/116406)[Kremote: Counting objects:  15% (17461/116406)[Kremote: Counting objects:  16% (18625/116406)[Kremote: Counting objects:  17% (19790/116406)[Kremote: Counting objects:  18% (20954/116406)[Kremote: Counting objects:  19% (22118/116406)[Kremote: Counting objects:  20% (23282/116406)[Kremote: Counting objects:  21% (24446/116406)[Kremote: Counting objects:  22% (25610/116406)[Kremote: Counting objects:  23% (26774/116406)[Kremote: Counting objects:  24% (27938/116406)[Kremote: Counting objects:  25% (29102/116406)[Kremote: Counting objects:  26% (30266/116406)[Kremote: Counting objects:  27% (31430/116406)[Kremote: Counting objects:  28% (32594/116406)[Kremote: Counting objects:  29% (33758/116406)[Kremote: Counting objects:  30% (34922/116406)[Kremote: Counting objects:  31% (36086/116406)[Kremote: Counting objects:  32% (37250/116406)[Kremote: Counting objects:  33% (38414/116406)[Kremote: Counting objects:  34% (39579/116406)[Kremote: Counting objects:  35% (40743/116406)[Kremote: Counting objects:  36% (41907/116406)[Kremote: Counting objects:  37% (43071/116406)[Kremote: Counting objects:  38% (44235/116406)[Kremote: Counting objects:  39% (45399/116406)[Kremote: Counting objects:  40% (46563/116406)[Kremote: Counting objects:  41% (47727/116406)[Kremote: Counting objects:  42% (48891/116406)[Kremote: Counting objects:  43% (50055/116406)[Kremote: Counting objects:  44% (51219/116406)[Kremote: Counting objects:  45% (52383/116406)[Kremote: Counting objects:  46% (53547/116406)[Kremote: Counting objects:  47% (54711/116406)[Kremote: Counting objects:  48% (55875/116406)[Kremote: Counting objects:  49% (57039/116406)[Kremote: Counting objects:  50% (58203/116406)[Kremote: Counting objects:  51% (59368/116406)[Kremote: Counting objects:  52% (60532/116406)[Kremote: Counting objects:  53% (61696/116406)[Kremote: Counting objects:  54% (62860/116406)[Kremote: Counting objects:  55% (64024/116406)[Kremote: Counting objects:  56% (65188/116406)[Kremote: Counting objects:  57% (66352/116406)[Kremote: Counting objects:  58% (67516/116406)[Kremote: Counting objects:  59% (68680/116406)[Kremote: Counting objects:  60% (69844/116406)[Kremote: Counting objects:  61% (71008/116406)[Kremote: Counting objects:  62% (72172/116406)[Kremote: Counting objects:  63% (73336/116406)[Kremote: Counting objects:  64% (74500/116406)[Kremote: Counting objects:  65% (75664/116406)[Kremote: Counting objects:  66% (76828/116406)[Kremote: Counting objects:  67% (77993/116406)[Kremote: Counting objects:  68% (79157/116406)[Kremote: Counting objects:  69% (80321/116406)[Kremote: Counting objects:  70% (81485/116406)[Kremote: Counting objects:  71% (82649/116406)[Kremote: Counting objects:  72% (83813/116406)[Kremote: Counting objects:  73% (84977/116406)[Kremote: Counting objects:  74% (86141/116406)[Kremote: Counting objects:  75% (87305/116406)[Kremote: Counting objects:  76% (88469/116406)[Kremote: Counting objects:  77% (89633/116406)[Kremote: Counting objects:  78% (90797/116406)[Kremote: Counting objects:  79% (91961/116406)[Kremote: Counting objects:  80% (93125/116406)[Kremote: Counting objects:  81% (94289/116406)[Kremote: Counting objects:  82% (95453/116406)[Kremote: Counting objects:  83% (96617/116406)[Kremote: Counting objects:  84% (97782/116406)[Kremote: Counting objects:  85% (98946/116406)[Kremote: Counting objects:  86% (100110/116406)[Kremote: Counting objects:  87% (101274/116406)[Kremote: Counting objects:  88% (102438/116406)[Kremote: Counting objects:  89% (103602/116406)[Kremote: Counting objects:  90% (104766/116406)[Kremote: Counting objects:  91% (105930/116406)[Kremote: Counting objects:  92% (107094/116406)[Kremote: Counting objects:  93% (108258/116406)[Kremote: Counting objects:  94% (109422/116406)[Kremote: Counting objects:  95% (110586/116406)[Kremote: Counting objects:  96% (111750/116406)[Kremote: Counting objects:  97% (112914/116406)[Kremote: Counting objects:  98% (114078/116406)[Kremote: Counting objects:  99% (115242/116406)[Kremote: Counting objects: 100% (116406/116406)[Kremote: Counting objects: 100% (116406/116406), done.[K
+remote: Compressing objects:   0% (1/32484)[Kremote: Compressing objects:   1% (325/32484)[Kremote: Compressing objects:   2% (650/32484)[Kremote: Compressing objects:   3% (975/32484)[Kremote: Compressing objects:   4% (1300/32484)[Kremote: Compressing objects:   5% (1625/32484)[Kremote: Compressing objects:   6% (1950/32484)[Kremote: Compressing objects:   7% (2274/32484)[Kremote: Compressing objects:   8% (2599/32484)[Kremote: Compressing objects:   9% (2924/32484)[Kremote: Compressing objects:  10% (3249/32484)[Kremote: Compressing objects:  11% (3574/32484)[Kremote: Compressing objects:  12% (3899/32484)[Kremote: Compressing objects:  13% (4223/32484)[Kremote: Compressing objects:  14% (4548/32484)[Kremote: Compressing objects:  15% (4873/32484)[Kremote: Compressing objects:  16% (5198/32484)[Kremote: Compressing objects:  17% (5523/32484)[Kremote: Compressing objects:  18% (5848/32484)[Kremote: Compressing objects:  19% (6172/32484)[Kremote: Compressing objects:  20% (6497/32484)[Kremote: Compressing objects:  21% (6822/32484)[Kremote: Compressing objects:  22% (7147/32484)[Kremote: Compressing objects:  23% (7472/32484)[Kremote: Compressing objects:  24% (7797/32484)[Kremote: Compressing objects:  25% (8121/32484)[Kremote: Compressing objects:  26% (8446/32484)[Kremote: Compressing objects:  27% (8771/32484)[Kremote: Compressing objects:  28% (9096/32484)[Kremote: Compressing objects:  29% (9421/32484)[Kremote: Compressing objects:  30% (9746/32484)[Kremote: Compressing objects:  31% (10071/32484)[Kremote: Compressing objects:  32% (10395/32484)[Kremote: Compressing objects:  33% (10720/32484)[Kremote: Compressing objects:  34% (11045/32484)[Kremote: Compressing objects:  35% (11370/32484)[Kremote: Compressing objects:  36% (11695/32484)[Kremote: Compressing objects:  37% (12020/32484)[Kremote: Compressing objects:  38% (12344/32484)[Kremote: Compressing objects:  39% (12669/32484)[Kremote: Compressing objects:  40% (12994/32484)[Kremote: Compressing objects:  41% (13319/32484)[Kremote: Compressing objects:  42% (13644/32484)[Kremote: Compressing objects:  43% (13969/32484)[Kremote: Compressing objects:  44% (14293/32484)[Kremote: Compressing objects:  45% (14618/32484)[Kremote: Compressing objects:  46% (14943/32484)[Kremote: Compressing objects:  47% (15268/32484)[Kremote: Compressing objects:  48% (15593/32484)[Kremote: Compressing objects:  49% (15918/32484)[Kremote: Compressing objects:  50% (16242/32484)[Kremote: Compressing objects:  51% (16567/32484)[Kremote: Compressing objects:  52% (16892/32484)[Kremote: Compressing objects:  53% (17217/32484)[Kremote: Compressing objects:  54% (17542/32484)[Kremote: Compressing objects:  55% (17867/32484)[Kremote: Compressing objects:  56% (18192/32484)[Kremote: Compressing objects:  57% (18516/32484)[Kremote: Compressing objects:  58% (18841/32484)[Kremote: Compressing objects:  59% (19166/32484)[Kremote: Compressing objects:  60% (19491/32484)[Kremote: Compressing objects:  61% (19816/32484)[Kremote: Compressing objects:  62% (20141/32484)[Kremote: Compressing objects:  63% (20465/32484)[Kremote: Compressing objects:  64% (20790/32484)[Kremote: Compressing objects:  65% (21115/32484)[Kremote: Compressing objects:  66% (21440/32484)[Kremote: Compressing objects:  67% (21765/32484)[Kremote: Compressing objects:  68% (22090/32484)[Kremote: Compressing objects:  69% (22414/32484)[Kremote: Compressing objects:  70% (22739/32484)[Kremote: Compressing objects:  71% (23064/32484)[Kremote: Compressing objects:  72% (23389/32484)[Kremote: Compressing objects:  73% (23714/32484)[Kremote: Compressing objects:  74% (24039/32484)[Kremote: Compressing objects:  75% (24363/32484)[Kremote: Compressing objects:  76% (24688/32484)[Kremote: Compressing objects:  77% (25013/32484)[Kremote: Compressing objects:  78% (25338/32484)[Kremote: Compressing objects:  79% (25663/32484)[Kremote: Compressing objects:  80% (25988/32484)[Kremote: Compressing objects:  81% (26313/32484)[Kremote: Compressing objects:  82% (26637/32484)[Kremote: Compressing objects:  83% (26962/32484)[Kremote: Compressing objects:  84% (27287/32484)[Kremote: Compressing objects:  85% (27612/32484)[Kremote: Compressing objects:  86% (27937/32484)[Kremote: Compressing objects:  87% (28262/32484)[Kremote: Compressing objects:  88% (28586/32484)[Kremote: Compressing objects:  89% (28911/32484)[Kremote: Compressing objects:  90% (29236/32484)[Kremote: Compressing objects:  91% (29561/32484)[Kremote: Compressing objects:  92% (29886/32484)[Kremote: Compressing objects:  93% (30211/32484)[Kremote: Compressing objects:  94% (30535/32484)[Kremote: Compressing objects:  95% (30860/32484)[Kremote: Compressing objects:  96% (31185/32484)[Kremote: Compressing objects:  97% (31510/32484)[Kremote: Compressing objects:  98% (31835/32484)[Kremote: Compressing objects:  99% (32160/32484)[Kremote: Compressing objects: 100% (32484/32484)[Kremote: Compressing objects: 100% (32484/32484), done.[K
+Receiving objects:   0% (1/116406)Receiving objects:   1% (1165/116406)Receiving objects:   2% (2329/116406)Receiving objects:   3% (3493/116406)Receiving objects:   4% (4657/116406)Receiving objects:   5% (5821/116406)Receiving objects:   6% (6985/116406)Receiving objects:   7% (8149/116406)Receiving objects:   8% (9313/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:   9% (10477/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  10% (11641/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  11% (12805/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  12% (13969/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  13% (15133/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  14% (16297/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  15% (17461/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  16% (18625/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  17% (19790/116406), 2.69 MiB | 5.37 MiB/sReceiving objects:  17% (20171/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  18% (20954/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  19% (22118/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  20% (23282/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  21% (24446/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  22% (25610/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  23% (26774/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  24% (27938/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  25% (29102/116406), 5.30 MiB | 5.24 MiB/sReceiving objects:  26% (30266/116406), 11.57 MiB | 7.65 MiB/sReceiving objects:  26% (31003/116406), 11.57 MiB | 7.65 MiB/sReceiving objects:  27% (31430/116406), 16.31 MiB | 8.10 MiB/sReceiving objects:  28% (32594/116406), 16.31 MiB | 8.10 MiB/sReceiving objects:  29% (33758/116406), 16.31 MiB | 8.10 MiB/sReceiving objects:  30% (34922/116406), 16.31 MiB | 8.10 MiB/sReceiving objects:  31% (36086/116406), 16.31 MiB | 8.10 MiB/sReceiving objects:  32% (37250/116406), 16.31 MiB | 8.10 MiB/sReceiving objects:  33% (38414/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  34% (39579/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  35% (40743/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  36% (41907/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  37% (43071/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  38% (44235/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  39% (45399/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  40% (46563/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  41% (47727/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  42% (48891/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  42% (49866/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  43% (50055/116406), 21.97 MiB | 8.74 MiB/sReceiving objects:  44% (51219/116406), 28.14 MiB | 9.29 MiB/sReceiving objects:  45% (52383/116406), 28.14 MiB | 9.29 MiB/sReceiving objects:  46% (53547/116406), 28.14 MiB | 9.29 MiB/sReceiving objects:  47% (54711/116406), 28.14 MiB | 9.29 MiB/sReceiving objects:  48% (55875/116406), 28.14 MiB | 9.29 MiB/sReceiving objects:  49% (57039/116406), 28.14 MiB | 9.29 MiB/sReceiving objects:  50% (58203/116406), 28.14 MiB | 9.29 MiB/sReceiving objects:  51% (59368/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  52% (60532/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  53% (61696/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  54% (62860/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  55% (64024/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  56% (65188/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  57% (66352/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  58% (67516/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  59% (68680/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  60% (69844/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  61% (71008/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  62% (72172/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  63% (73336/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  63% (73564/116406), 34.96 MiB | 9.88 MiB/sReceiving objects:  64% (74500/116406), 41.28 MiB | 10.22 MiB/sReceiving objects:  65% (75664/116406), 41.28 MiB | 10.22 MiB/sReceiving objects:  66% (76828/116406), 41.28 MiB | 10.22 MiB/sReceiving objects:  67% (77993/116406), 41.28 MiB | 10.22 MiB/sReceiving objects:  68% (79157/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  69% (80321/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  70% (81485/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  71% (82649/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  72% (83813/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  73% (84977/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  74% (86141/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  75% (87305/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  76% (88469/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  77% (89633/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  78% (90797/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  79% (91961/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  80% (93125/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  81% (94289/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  82% (95453/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  83% (96617/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  83% (96820/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  84% (97782/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  85% (98946/116406), 47.39 MiB | 10.44 MiB/sReceiving objects:  86% (100110/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  87% (101274/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  88% (102438/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  89% (103602/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  90% (104766/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  91% (105930/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  92% (107094/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  93% (108258/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  94% (109422/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  95% (110586/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  96% (111750/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  97% (112914/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  98% (114078/116406), 53.85 MiB | 11.28 MiB/sReceiving objects:  99% (115242/116406), 53.85 MiB | 11.28 MiB/sremote: Total 116406 (delta 82926), reused 115367 (delta 81941), pack-reused 0
+Receiving objects: 100% (116406/116406), 53.85 MiB | 11.28 MiB/sReceiving objects: 100% (116406/116406), 57.64 MiB | 10.79 MiB/s, done.
+Resolving deltas:   0% (0/82926)Resolving deltas:   1% (1051/82926)Resolving deltas:   2% (1736/82926)Resolving deltas:   3% (2495/82926)Resolving deltas:   4% (3459/82926)Resolving deltas:   5% (4308/82926)Resolving deltas:   6% (4995/82926)Resolving deltas:   7% (5873/82926)Resolving deltas:   8% (6764/82926)Resolving deltas:   9% (7477/82926)Resolving deltas:  10% (8368/82926)Resolving deltas:  11% (9204/82926)Resolving deltas:  12% (9960/82926)Resolving deltas:  13% (10787/82926)Resolving deltas:  14% (11695/82926)Resolving deltas:  15% (12462/82926)Resolving deltas:  16% (13298/82926)Resolving deltas:  17% (14118/82926)Resolving deltas:  18% (15031/82926)Resolving deltas:  19% (15767/82926)Resolving deltas:  20% (16595/82926)Resolving deltas:  21% (17427/82926)Resolving deltas:  22% (18262/82926)Resolving deltas:  23% (19131/82926)Resolving deltas:  24% (19906/82926)Resolving deltas:  25% (20741/82926)Resolving deltas:  26% (21769/82926)Resolving deltas:  27% (22452/82926)Resolving deltas:  28% (23257/82926)Resolving deltas:  29% (24050/82926)Resolving deltas:  30% (24969/82926)Resolving deltas:  31% (25763/82926)Resolving deltas:  32% (26549/82926)Resolving deltas:  33% (27452/82926)Resolving deltas:  34% (28209/82926)Resolving deltas:  35% (29026/82926)Resolving deltas:  36% (29854/82926)Resolving deltas:  37% (30705/82926)Resolving deltas:  38% (31513/82926)Resolving deltas:  39% (32452/82926)Resolving deltas:  40% (33194/82926)Resolving deltas:  41% (34052/82926)Resolving deltas:  42% (34868/82926)Resolving deltas:  43% (35659/82926)Resolving deltas:  44% (36589/82926)Resolving deltas:  45% (37524/82926)Resolving deltas:  46% (38146/82926)Resolving deltas:  47% (39018/82926)Resolving deltas:  48% (39983/82926)Resolving deltas:  49% (40656/82926)Resolving deltas:  50% (41538/82926)Resolving deltas:  51% (42361/82926)Resolving deltas:  52% (43133/82926)Resolving deltas:  53% (43988/82926)Resolving deltas:  54% (44789/82926)Resolving deltas:  55% (45679/82926)Resolving deltas:  56% (46466/82926)Resolving deltas:  57% (47503/82926)Resolving deltas:  58% (48110/82926)Resolving deltas:  59% (49136/82926)Resolving deltas:  60% (49759/82926)Resolving deltas:  61% (50681/82926)Resolving deltas:  62% (51418/82926)Resolving deltas:  63% (52287/82926)Resolving deltas:  64% (53075/82926)Resolving deltas:  65% (53951/82926)Resolving deltas:  66% (54769/82926)Resolving deltas:  67% (55603/82926)Resolving deltas:  68% (56393/82926)Resolving deltas:  69% (57257/82926)Resolving deltas:  70% (58056/82926)Resolving deltas:  71% (59244/82926)Resolving deltas:  77% (64485/82926)Resolving deltas:  78% (64878/82926)Resolving deltas:  79% (65525/82926)Resolving deltas:  81% (67349/82926)Resolving deltas:  82% (68139/82926)Resolving deltas:  83% (68839/82926)Resolving deltas:  84% (69661/82926)Resolving deltas:  85% (70491/82926)Resolving deltas:  86% (71375/82926)Resolving deltas:  87% (72160/82926)Resolving deltas:  88% (72975/82926)Resolving deltas:  89% (73817/82926)Resolving deltas:  89% (74454/82926)Resolving deltas:  90% (74654/82926)Resolving deltas:  91% (75484/82926)Resolving deltas:  92% (76299/82926)Resolving deltas:  93% (77153/82926)Resolving deltas:  94% (77975/82926)Resolving deltas:  95% (78797/82926)Resolving deltas:  96% (79687/82926)Resolving deltas:  97% (80450/82926)Resolving deltas:  98% (81316/82926)Resolving deltas:  99% (82099/82926)Resolving deltas: 100% (82926/82926)Resolving deltas: 100% (82926/82926), done.
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ git syayi[K[K[K[Ktatus
+fatal: not a git repository (or any of the parent directories): .git
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ cd 
+.conda/     .landscape/ .local/     git_repo/   miniconda3/ mylibgit/   test_dir/   
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ cd mylibgit/
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ cd ../
+.conda/     .landscape/ .local/     git_repo/   miniconda3/ mylibgit/   test_dir/   
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ cd ../git_repo/
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git syayi[K[K[K[Ktatus
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmy_unix_session[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ ls
+LICENSE  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ vi test2
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"test2" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [11;1H~                                                                                                                          [12;1H~                                                                                                                          [13;1H~                                                                                                                          [14;1H~                                                                                                                          [15;1H~                                                                                                                          [16;1H~                                                                                                                          [17;1H~                                                                                                                          [18;1H~                                                                                                                          [19;1H~                                                                                                                          [20;1H~                                                                                                                          [21;1H~                                                                                                                          [22;1H~                                                                                                                          [23;1H~                                                                                                                          [24;1H~                                                                                                                          [25;1H~                                                                                                                          [26;1H~                                                                                                                          [27;1H~                                                                                                                          [28;1H~                                                                                                                          [29;1H~                                                                                                                          [m[30;106H0,0-1[9CAll[1;1H[?25h[?25l[30;96Hi[1;1H[30;96H [1;1H[30;1H[1m-- INSERT --[m[30;14H[K[30;106H0,1[11CAll[1;1H[?25h[?25lt[30;106H1,2[1;2H[?25h[?25le[30;108H3[1;3H[?25h[?25ls[30;108H4[1;4H[?25h[?25lt[30;108H5[1;5H[?25h[?25lt[30;108H6[1;6H[?25h[?25le[30;108H7[1;7H[?25h[?25ls[30;108H8[1;8H[?25h[?25lt[30;108H9[1;9H[?25h[?25l2[30;108H10[1;10H[?25h[?25l2[30;109H1[1;11H[?25h[?25l2[30;109H2[1;12H[?25h[30;1H[K[1;11H[?25l[30;96H^[[1;11H[30;96H  [1;12H[30;106H1,11[10CAll[1;11H[?25h[?25l[30;96H^[[1;11H[30;96H  [1;11H[30;96H^[[1;11H[30;96H  [1;11H[?25h[?25l[30;96H:[1;11H[30;96H[K[30;1H:[?2004h[?25hq[?25l[30;2H[K[30;2H[?25hwq[?25l[?2004l"test2" [New] 1L, 12C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ ls
+LICENSE  my_unix_session  test2
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git add my_unix_session 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git add my_unix_session ls[Kvi test2ls[Kgit status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest2[m
+
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git diff test2
+[?1h=[K[?1l>(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git diff test2[K[K[K[K[Kmy_unix_session
+[?1h=[K[?1l>(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git diff
+[?1h=[K[?1l>(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git stta[K[Katus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest2[m
+
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ ls
+LICENSE  my_unix_session  test2
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ vi Lic[K[KICENSE 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"LICENSE" 1L, 5C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Htest
+[94m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [11;1H~                                                                                                                          [12;1H~                                                                                                                          [13;1H~                                                                                                                          [14;1H~                                                                                                                          [15;1H~                                                                                                                          [16;1H~                                                                                                                          [17;1H~                                                                                                                          [18;1H~                                                                                                                          [19;1H~                                                                                                                          [20;1H~                                                                                                                          [21;1H~                                                                                                                          [22;1H~                                                                                                                          [23;1H~                                                                                                                          [24;1H~                                                                                                                          [25;1H~                                                                                                                          [26;1H~                                                                                                                          [27;1H~                                                                                                                          [28;1H~                                                                                                                          [29;1H~                                                                                                                          [m[30;106H1,1[11CAll[1;1H[?25h[?25l[30;96Hi[1;1H[30;96H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;106H1,1[11CAll[1;1H[?25h[?25l[1;1H[K[2;1Htest[2;5H[K[30;106H2[2;1H[?25h[?25l[2;1H[K[3;1Htest[3;5H[K[30;106H3[3;1H[?25h[?25l[30;106H2[2;1H[?25h[?25l[30;106H1[1;1H[?25h[?25lx[30;108H2[1;2H[?25h[?25lx[30;108H3[1;3H[?25h[?25lx[30;108H4[1;4H[?25h[?25l[2;29r[2;1H[L[1;30r[30;106H[K[30;106H2,1[11CAll[2;1H[?25h[?25ly[30;108H2[2;2H[?25h[?25ly[30;108H3[2;3H[?25h[?25ly[30;108H4[2;4H[?25h[?25ly[30;108H5[2;5H[?25h[30;1H[K[2;4H[?25l[30;96H^[[2;4H[30;96H  [2;5H[30;106H2,4[11CAll[2;4H[?25h[?25l[30;96H^[[2;4H[30;96H  [2;4H[30;96H^[[2;4H[30;96H  [2;4H[?25h[?25l[30;96H:[2;4H[30;96H[K[30;1H:[?2004h[?25hwq[?25l[?2004l"LICENSE" 4L, 15C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ vi LICENSE ls[Kvi LICENSE [Kgit diff
+[?1h=[1mdiff --git a/LICENSE b/LICENSE[m[m
+[1mindex 9daeafb..848766f 100644[m[m
+[1m--- a/LICENSE[m[m
+[1m+++ b/LICENSE[m[m
+[36m@@ -1 +1,4 @@[m[m
+[32m+[m[32mxxx[m[m
+[32m+[m[32myyyy[m[m
+[32m+[m[m
+ test[m[m
+[K[?1l>(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git diff LICENSE
+[?1h=[1mdiff --git a/LICENSE b/LICENSE[m[m
+[1mindex 9daeafb..848766f 100644[m[m
+[1m--- a/LICENSE[m[m
+[1m+++ b/LICENSE[m[m
+[36m@@ -1 +1,4 @@[m[m
+[32m+[m[32mxxx[m[m
+[32m+[m[32myyyy[m[m
+[32m+[m[m
+ test[m[m
+[K[?1l>(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git diff LICENSE[K[K[K[K[K[K[K--staged
+[?1h=[1mdiff --git a/my_unix_session b/my_unix_session[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..5be466f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/my_unix_session[m[m
+[36m@@ -0,0 +1,500 @@[m[m
+[32m+[m[32mScript started on 2022-02-01 20:50:20-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"][m[m
+[32m+[m[32mTo run a command as administrator (user "root"), use "sudo <command>".[m[41m[7m^M[27m[m[m
+[32m+[m[32mSee "man sudo_root" for details.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: /[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: /[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/[00m$ pwd[m[41m[7m^M[27m[m[m
+[32m+[m[32m/[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: /[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/[00m$ cd home/[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: /home[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/home[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;34mnitin[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: /home[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/home[00m$ cd nitin/[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: ~[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ pw[m[41m[7m^M[27m[m[m
+[32m+[m[32mpw: command not found[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: ~[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ pwd[m[41m[7m^M[27m[m[m
+[32m+[m[32m/home/nitin[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: ~[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ cd .[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: ~[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ cd ../..[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: /[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;nitin@US-Nitin: /[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/[00m$ [7m^G[27mls -F[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[0m[01;36mbin[0m@   [01;34mdev[0m/  [01;34mhome[0m/  [01;36mlib[0m@    [01;36mlib64[0m@   [01;34mlost+found[0m/  [01;34mmnt[0m/  [01;34mproc[0m/  [01;34mrun[0m/   [01;34msnap[0m/  [01;34msys[0m/  [01;34musr[0m/[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[01;34mboot[0m/  [01;34metc[0m/  [01;32minit[0m*  [01;36mlib32[0m@  [01;36mlibx32[0m@  [01;34mmedia[0m/       [01;34mopt[0m/  [01;34mroot[0m/  [01;36msbin[0m@  [01;34msrv[0m/   [30;42mtmp[0m/  [01;34mvar[0m/[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m0;nitin@US-Nitin: /[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/[00m$ clear[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m0;nitin@US-Nitin: /[7m^G[27m[01;32mnitin@US-Nitin[00m:[01;34m/[00m$ ls --help[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mUsage: ls [OPTION]... [FILE]...[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mList information about the FILEs (the current directory by default).[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mSort entries alphabetically if none of -cftuvSUX nor --sort is specified.[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mMandatory arguments to long options are mandatory for short options too.[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -a, --all                  do not ignore entries starting with .[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -A, --almost-all           do not list implied . and ..[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --author               with -l, print the author of each file[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -b, --escape               print C-style escapes for nongraphic characters[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               e.g., '--block-size=M'; see SIZE format below[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -B, --ignore-backups       do not list implied entries ending with ~[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -c                         with -lt: sort by, and show, ctime (time of last[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               modification of file status information);[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               with -l: show ctime and sort by name;[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               otherwise: sort by ctime, newest first[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -C                         list entries by columns[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --color[=WHEN]         colorize the output; WHEN can be 'always' (default[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               if omitted), 'auto', or 'never'; more info below[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -d, --directory            list directories themselves, not their contents[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -D, --dired                generate output designed for Emacs' dired mode[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -f                         do not sort, enable -aU, disable -ls --color[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -F, --classify             append indicator (one of */=>@|) to entries[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --file-type            likewise, except do not append '*'[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --format=WORD          across -x, commas -m, horizontal -x, long -l,[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               single-column -1, verbose -l, vertical -C[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --full-time            like -l --time-style=full-iso[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -g                         like -l, but do not list owner[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --group-directories-first[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                             group directories before files;[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               can be augmented with a --sort option, but any[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               use of --sort=none (-U) disables grouping[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -G, --no-group             in a long listing, don't print group names[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --si                   likewise, but use powers of 1000 not 1024[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -H, --dereference-command-line[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                             follow symbolic links listed on the command line[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --dereference-command-line-symlink-to-dir[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                             follow each command line symbolic link[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               that points to a directory[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --hide=PATTERN         do not list implied entries matching shell PATTERN[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               (overridden by -a or -A)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               (default if omitted), 'auto', or 'never'[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --indicator-style=WORD  append indicator with style WORD to entry names:[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               none (default), slash (-p),[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               file-type (--file-type), classify (-F)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -i, --inode                print the index number of each file[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -k, --kibibytes            default to 1024-byte blocks for disk usage;[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               used only with -s and per directory totals[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -l                         use a long listing format[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -L, --dereference          when showing file information for a symbolic[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               link, show information for the file the link[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               references rather than for the link itself[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -m                         fill width with a comma separated list of entries[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -N, --literal              print entry names without quoting[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -o                         like -l, but do not list group information[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -p, --indicator-style=slash[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                             append / indicator to directories[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -q, --hide-control-chars   print ? instead of nongraphic characters[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --show-control-chars   show nongraphic characters as-is (the default,[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               unless program is 'ls' and output is a terminal)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -Q, --quote-name           enclose entry names in double quotes[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --quoting-style=WORD   use quoting style WORD for entry names:[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               literal, locale, shell, shell-always,[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               shell-escape, shell-escape-always, c, escape[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               (overrides QUOTING_STYLE environment variable)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -r, --reverse              reverse order while sorting[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -R, --recursive            list subdirectories recursively[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -s, --size                 print the allocated size of each file, in blocks[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -S                         sort by file size, largest first[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               time (-t), version (-v), extension (-X)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --time=WORD            with -l, show time as WORD instead of default[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               modification time: atime or access or use (-u);[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               ctime or status (-c); also use specified time[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m                               as sort key if --sort=time (newest first)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -t                         sort by modification time, newest first[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [K::[Kqq[K[?1l>(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git v[Kcommitt[K
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ Reading... ](B[m[28;54H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.8                             /home/nitin/git_repo/.git/COMMIT_EDITMSG                                        [1;122H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d[39;49m[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d# Changes to be committed:[8d#       new file:   my_unix_session[9d#[10d# Changes not staged for commit:[11d#       modified:   LICENSE[12d#[13d# Untracked files:[14d#       test2[15d#[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[KAborting commit due to empty commit message.
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git commit -m 'test message'
+[master 1447e9b] test message
+ 1 file changed, 500 insertions(+)
+ create mode 100644 my_unix_session
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   LICENSE[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest2[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git add --all
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   LICENSE[m
+	[32mnew file:   test2[m
+
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git commit -m 'testmsg2'
+[master b3382f1] testmsg2
+ 2 files changed, 4 insertions(+)
+ create mode 100644 test2
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git rm Li[KICENSE 
+rm 'LICENSE'
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    LICENSE[m
+
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git commit -m 'remvoe[K[K[Kove sta[K[K[KLICENSE tracking'
+[master 59ed1d6] remove LICENSE tracking
+ 1 file changed, 4 deletions(-)
+ delete mode 100644 LICENSE
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ 
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ ls
+my_unix_session  test2
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git rm --cached test2
+rm 'test2'
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ ls
+my_unix_session  test2
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    test2[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest2[m
+
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git log --since=2.weeks
+[?1h=[33mcommit 59ed1d60bd7285aefd7f619f1f188f8b47ffb48c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Nitin Khadnelwal <nitin.khandelwal@tigeranalytics.com>[m
+Date:   Wed Feb 16 20:34:18 2022 -0600[m
+[m
+    remove LICENSE tracking[m
+[m
+[33mcommit b3382f1acf667b11ee0f5a270ca60f58923376b4[m[m
+Author: Nitin Khadnelwal <nitin.khandelwal@tigeranalytics.com>[m
+Date:   Wed Feb 16 20:33:15 2022 -0600[m
+[m
+    testmsg2[m
+[m
+[33mcommit 1447e9bc83cdc6e781fada70e1eb165198f2a3dc[m[m
+Author: Nitin Khadnelwal <nitin.khandelwal@tigeranalytics.com>[m
+Date:   Wed Feb 16 20:31:27 2022 -0600[m
+[m
+    test message[m
+[m
+[33mcommit f71f5bd38d123f11c21605d2fc112bb0fcf39fc3[m[m
+Author: Nitin Khadnelwal <nitin.khandelwal@tigeranalytics.com>[m
+Date:   Wed Feb 16 09:35:31 2022 -0600[m
+[m
+    Initial project version[m
+[K[?1l>(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git remote -v
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ git remote
+(base) ]0;nitin@US-Nitin: ~/git_repo[01;32mnitin@US-Nitin[00m:[01;34m~/git_repo[00m$ cd ..
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ ls
+[0m[01;34mgit_repo[0m  [01;34mminiconda3[0m  my_git_session  [01;34mmylibgit[0m  [01;34mtest_dir[0m
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ cd mylibgit/
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ git remote
+origin
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ git reomote -v
+git: 'reomote' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ git reomote -v[1P
+origin	https://github.com/libgit2/libgit2 (fetch)
+origin	https://github.com/libgit2/libgit2 (push)
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ git fetch <remote>
+bash: syntax error near unexpected token `newline'
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ git fetch origin
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ git pull
+Already up to date.
+(base) ]0;nitin@US-Nitin: ~/mylibgit[01;32mnitin@US-Nitin[00m:[01;34m~/mylibgit[00m$ cd ..
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ git clone https://github.com/nitin-tiger/MLOPS
+Cloning into 'MLOPS'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 591 bytes | 295.00 KiB/s, done.
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ ls
+[0m[01;34mMLOPS[0m  [01;34mgit_repo[0m  [01;34mminiconda3[0m  my_git_session  [01;34mmylibgit[0m  [01;34mtest_dir[0m
+(base) ]0;nitin@US-Nitin: ~[01;32mnitin@US-Nitin[00m:[01;34m~[00m$ cd Ml[KLOPS/
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ cp ../
+.bash_history              .landscape/                .viminfo                   mylibgit/
+.bash_logout               .local/                    MLOPS/                     test_dir/
+.bashrc                    .motd_shown                git_repo/                  
+.conda/                    .profile                   miniconda3/                
+.gitconfig                 .sudo_as_admin_successful  my_git_session             
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ cp ../test_dir/
+animals.txt        final.txt          number_sorted.tex  project/           
+draft.txt          haiku.txt          numbers.txt        
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ cp ../test_dir/[K[K[K[K[K[K[K[K[Kgit_repo/i[K
+.git/            my_unix_session  test2            
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ cp ../git_repo/my_unix_session 
+cp: missing destination file operand after '../git_repo/my_unix_session'
+Try 'cp --help' for more information.
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ cp ../git_repo/my_unix_session my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmy_unix_session[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ gir [K[Kt add my_unix_session 
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git staty[Kus
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   my_unix_session[m
+
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ got [K[K[Kit commit -m 'add unix session'
+[main 8a0f598] add unix session
+ 1 file changed, 500 insertions(+)
+ create mode 100644 my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin main
+Username for 'https://github.com': nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin main
+Username for 'https://github.com': nitin-tiget r
+Password for 'https://nitin-tiger@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin main
+Username for 'https://github.com': nitin.khandelwal@tigeranalytics.com
+Password for 'https://nitin.khandelwal@tigeranalytics.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin main
+Username for 'https://github.com': nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin main[K[Kster[K[K[K[K[K[K[K
+Username for 'https://github.com': nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin
+Username for 'https://github.com': nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin
+Username for 'https://github.com': nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin
+Username for 'https://github.com': nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/nitin-tiger/MLOPS/'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin
+Username for 'https://github.com': m nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 7.95 KiB | 7.95 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/nitin-tiger/MLOPS
+   7d2fb8b..8a0f598  main -> main
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git remote origin master
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git remote origin master[C[C[C[C[C[C[K[K[K[K[K[K[Ksoriginhorigin[Coriginworigin origin
+* remote origin
+  Fetch URL: https://github.com/nitin-tiger/MLOPS
+  Push  URL: https://github.com/nitin-tiger/MLOPS
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git tag
+[?1h=[K[?1l>(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git branch testing
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkout testing
+Switched to branch 'testing'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch testing
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ got[K[Kit commit -m 'created new branck[Kj[Kh'
+On branch testing
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push orgin m[K[K[K[K[Kigin master
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/nitin-tiger/MLOPS'
+[m(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git push origin master[Kgit status
+On branch testing
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git statuspush origin master[K[K[K[K[K[K[K main
+Username for 'https://github.com': nitin-tiger
+Password for 'https://nitin-tiger@github.com': 
+Everything up-to-date
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ 
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ 
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch testing
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkout -b master
+Switched to a new branch 'master'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ pico [K[K[K[K[Kvi test_branck
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"test_branck" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [11;1H~                                                                                                                          [12;1H~                                                                                                                          [13;1H~                                                                                                                          [14;1H~                                                                                                                          [15;1H~                                                                                                                          [16;1H~                                                                                                                          [17;1H~                                                                                                                          [18;1H~                                                                                                                          [19;1H~                                                                                                                          [20;1H~                                                                                                                          [21;1H~                                                                                                                          [22;1H~                                                                                                                          [23;1H~                                                                                                                          [24;1H~                                                                                                                          [25;1H~                                                                                                                          [26;1H~                                                                                                                          [27;1H~                                                                                                                          [28;1H~                                                                                                                          [29;1H~                                                                                                                          [m[30;106H0,0-1[9CAll[1;1H[?25h[?25l[30;96Hi[1;1H[30;96H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;106H0,1[11CAll[1;1H[?25h[?25lt[30;106H1,2[1;2H[?25h[?25le[30;108H3[1;3H[?25h[?25ls[30;108H4[1;4H[?25h[?25lt[30;108H5[1;5H[?25h[?25l[30;108H6[1;6H[?25h[?25lo[30;108H7[1;7H[?25h[?25ln[30;108H8[1;8H[?25h[?25l[30;108H9[1;9H[?25h[?25lm[30;108H10[1;10H[?25h[?25la[30;109H1[1;11H[?25h[?25lt[30;109H2[1;12H[?25h[?25l[1;11H[K[30;109H1[1;11H[?25h[?25ls[30;109H2[1;12H[?25h[?25lt[30;109H3[1;13H[?25h[?25le[30;109H4[1;14H[?25h[?25lr[30;109H5[1;15H[?25h[?25l[30;109H6[1;16H[?25h[?25lb[30;109H7[1;17H[?25h[?25lr[30;109H8[1;18H[?25h[?25la[30;109H9[1;19H[?25h[?25ln[30;108H20[1;20H[?25h[?25lc[30;109H1[1;21H[?25h[?25lk[30;109H2[1;22H[?25h[?25l[1;21H[K[30;109H1[1;21H[?25h[?25lh[30;109H2[1;22H[?25h[30;1H[K[1;21H[?25l[30;96H^[[1;21H[30;96H  [1;22H[30;106H1,21[10CAll[1;21H[?25h[?25l[30;96H^[[1;21H[30;96H  [1;21H[30;96H^[[1;21H[30;96H  [1;21H[?25h[?25l[30;96H:[1;21H[30;96H[K[30;1H:[?2004h[?25hwq[?25l[?2004l"test_branck" [New] 1L, 22C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ 
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ 
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest_branck[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git add [K -aa[Kll
+error: did you mean `--all` (with two dashes)?
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git add -all-all
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   test_branck[m
+
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ kg[K[Kgit commit -m 'test branck[Kj[Kh'
+[master c49ea51] test branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git ch[K[Kcheckout - [Kb testing
+fatal: A branch named 'testing' already exists.
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkout -b testing[1P testing[1P testing[1Ptesting
+Switched to branch 'testing'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch testing
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git [K[K[K[Kvi 
+.git/            README.md        my_unix_session  
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ vi [K[K[Kls
+README.md  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkou [Kt master
+Switched to branch 'master'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session  test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkout
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session  test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ lsgit statuscheckoutls[Kgit checkout masterls[Kgit statuscheckout testing-b testingstatus[Kcommit -m 'test branch'[C[1@-[1@a[1@ 
+On branch master
+nothing to commit, working tree clean
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session  test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git chek[Kckout testing
+Switched to branch 'testing'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git merge testing
+Already up to date.
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ get chwk[K[Keckoutm[K master
+
+Command 'get' not found, but there are 18 similar ones.
+
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ get checkout master[1P[C[1@t
+
+Command 'gtt' not found, did you mean:
+
+  command 'gtf' from deb xserver-xorg-core (2:1.20.11-1ubuntu1~20.04.2)
+  command 'mtt' from deb xawtv (3.106-1)
+  command 'btt' from deb blktrace (1.2.0-5)
+  command 'gmt' from deb gmt (6.0.0+dfsg-1build2)
+  command 'tgtt' from deb tcm (2.20+TSQD-5build1)
+  command 'gpt' from deb gpt (1.1-5build1)
+  command 'tt' from deb treetop (1.6.8-1)
+  command 'gt' from deb genometools (1.6.1+ds-2)
+  command 'gtst' from deb scotch (6.0.9-1)
+  command 'gst' from deb gnu-smalltalk (3.2.5-1.3build3)
+  command 'gth' from deb genomethreader (1.7.3+dfsg-5)
+  command 'gtv' from deb smpeg-gtv (0.4.5+cvs20030824-8build1)
+  command 'git' from deb git (1:2.25.1-1ubuntu3.1)
+  command 'tgt' from deb tcm (2.20+TSQD-5build1)
+  command 'gt5' from deb gt5 (1.5.0~20111220+bzr29-3)
+
+Try: sudo apt install <deb name>
+
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ gtt checkout master[1P[1@i
+Switched to branch 'master'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git merge testing
+Already up to date.
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session  test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ get checkout master
+
+Command 'get' not found, but there are 18 similar ones.
+
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ get checkout master[1P[1@i
+Already on 'master'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session  test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkout testing
+Switched to branch 'testing'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git merge te[K[Kmaster
+Updating 8a0f598..c49ea51
+Fast-forward
+ test_branck | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ ls
+README.md  my_unix_session  test_branck
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ vi r[Ktest_branck 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"test_branck" 1L, 22C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Htest on master branch
+[94m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [11;1H~                                                                                                                          [12;1H~                                                                                                                          [13;1H~                                                                                                                          [14;1H~                                                                                                                          [15;1H~                                                                                                                          [16;1H~                                                                                                                          [17;1H~                                                                                                                          [18;1H~                                                                                                                          [19;1H~                                                                                                                          [20;1H~                                                                                                                          [21;1H~                                                                                                                          [22;1H~                                                                                                                          [23;1H~                                                                                                                          [24;1H~                                                                                                                          [25;1H~                                                                                                                          [26;1H~                                                                                                                          [27;1H~                                                                                                                          [28;1H~                                                                                                                          [29;1H~                                                                                                                          [m[30;106H1,21[10CAll[1;21H[?25h[?25l[30;96Hi[1;21H[30;96H [1;21H[30;1H[1m-- INSERT --[m[30;13H[K[30;106H1,21[10CAll[1;21H[?25h[?25l[1;21H[K[2;1Hh[2;2H[K[30;106H2,1 [2;1H[?25h[?25l[1;21Hh
+[94m~                                                                                                                          [m[30;106H1,21[1;21H[?25h[?25l[30;109H2[1;22H[?25h[?25l[2;1H[K[30;106H2,1 [2;1H[?25h[?25lt[30;108H2[2;2H[?25h[?25l[2;1H[K[30;108H1[2;1H[?25h[?25lf[30;108H2[2;2H[?25h[?25li[30;108H3[2;3H[?25h[?25ll[30;108H4[2;4H[?25h[?25le[30;108H5[2;5H[?25h[?25l[30;108H6[2;6H[?25h[?25lf[30;108H7[2;7H[?25h[?25lo[30;108H8[2;8H[?25h[?25lr[30;108H9[2;9H[?25h[?25l[30;108H10[2;10H[?25h[?25lt[30;109H1[2;11H[?25h[?25le[30;109H2[2;12H[?25h[?25ls[30;109H3[2;13H[?25h[?25lt[30;109H4[2;14H[?25h[?25li[30;109H5[2;15H[?25h[?25ln[30;109H6[2;16H[?25h[?25lg[30;109H7[2;17H[?25h[?25l[30;109H8[2;18H[?25h[?25lb[30;109H9[2;19H[?25h[?25lr[30;108H20[2;20H[?25h[?25la[30;109H1[2;21H[?25h[?25ln[30;109H2[2;22H[?25h[?25lc[30;109H3[2;23H[?25h[?25lk[30;109H4[2;24H[?25h[?25l[2;23H[K[30;109H3[2;23H[?25h[?25lh[30;109H4[2;24H[?25h[30;1H[K[2;23H[?25l[30;96H^[[2;23H[30;96H  [2;24H[30;106H2,23[10CAll[2;23H[?25h[?25l[30;96H^[[2;23H[30;96H  [2;23H[30;96H^[[2;23H[30;96H  [2;23H[?25h[?25l[30;96H:[2;23H[30;96H[K[30;1H:[?2004h[?25hwq[?25l[?2004l"test_branck" 2L, 46C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch testing
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   test_branck[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkout testing [K[K[K[K[K[K[K[Kmas[Kster
+M	test_branck
+Switched to branch 'master'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   test_branck[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git[K[K[Kvi test_branck 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"test_branck" 2L, 46C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Htest on master branch
+file for testing branch
+[94m~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [11;1H~                                                                                                                          [12;1H~                                                                                                                          [13;1H~                                                                                                                          [14;1H~                                                                                                                          [15;1H~                                                                                                                          [16;1H~                                                                                                                          [17;1H~                                                                                                                          [18;1H~                                                                                                                          [19;1H~                                                                                                                          [20;1H~                                                                                                                          [21;1H~                                                                                                                          [22;1H~                                                                                                                          [23;1H~                                                                                                                          [24;1H~                                                                                                                          [25;1H~                                                                                                                          [26;1H~                                                                                                                          [27;1H~                                                                                                                          [28;1H~                                                                                                                          [29;1H~                                                                                                                          [m[30;106H2,23[10CAll[2;23H[?25h[?25l[30;96H^[[2;23H[30;96H  [2;23H[30;96H^[[2;23H[30;96H  [2;23H[?25h[?25l[30;96H^[[2;23H[30;96H  [2;23H[30;96H^[[2;23H[30;96H  [2;23H[?25h[?25l[30;96H:[2;23H[30;1H[K[30;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[30;1H[K[30;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git checkout testing
+M	test_branck
+Switched to branch 'testing'
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git status
+On branch testing
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   test_branck[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git branch
+[?1h=  main[m[m
+  master[m[m
+* [32mtesting[m[m
+[K[?1l>(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git branck [K[Kh -v
+[?1h=  main   [m 8a0f598 add unix session[m
+  master [m c49ea51 test branch[m
+* [32mtesting[m c49ea51 test branch[m
+[K[?1l>(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ git branch --move master main
+fatal: A branch named 'main' already exists.
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ gitk [git log options]
+
+Command 'gitk' not found, but can be installed with:
+
+sudo apt install gitk
+
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ sudo apt install gitk
+[sudo] password for nitin: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package gitk is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+[1;31mE: [0mPackage 'gitk' has no installation candidate[0m
+(base) ]0;nitin@US-Nitin: ~/MLOPS[01;32mnitin@US-Nitin[00m:[01;34m~/MLOPS[00m$ exit
+exit
+
+Script done on 2022-02-17 12:25:40-06:00 [COMMAND_EXIT_CODE="100"]
